@@ -1,0 +1,43 @@
+name: Test
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
+      - name: Use Node.js v18
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: "pnpm"
+
+      - name: Check Renovate config
+        run: pnpm run test
+
+      - name: Test Renovate config
+        run: |
+          pnpm exec renovate \
+              --dry-run \
+              --schedule= \
+              --require-config=ignored \
+              '${{ github.repository }}'
+        env:
+          RENOVATE_USERNAME: renovate[bot]
+          RENOVATE_GIT_AUTHOR: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+          RENOVATE_TOKEN: ${{ github.token }}
+          RENOVATE_BASE_BRANCHES: ${{ github.sha }}
+          RENOVATE_CONFIG_FILE: ./renovate.json
+          LOG_LEVEL: debug

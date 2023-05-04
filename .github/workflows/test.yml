@@ -24,6 +24,9 @@ jobs:
           node-version: 18
           cache: "pnpm"
 
+      - name: Install dependencies
+        run: pnpm i --frozen-lockfile
+
       - name: Check Renovate config
         run: pnpm run test
 

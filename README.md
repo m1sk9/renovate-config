@@ -4,7 +4,7 @@ my renovate config
 
 ```json
 {
-    "extends": ["github>lis2a/renovate-config"]
+    "extends": ["github>liliscats/renovate-config"]
 }
 ```
 

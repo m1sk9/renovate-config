@@ -6,10 +6,10 @@
   "packageManager": "pnpm@8.6.3",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lis2a/renovate-config"
+    "url": "https://github.com/liliscats/renovate-config"
   },
   "author": {
-    "name": "lis2a",
+    "name": "liliscats",
     "email": "me@lilis.dev",
     "url": "https://lilis.dev"
   },

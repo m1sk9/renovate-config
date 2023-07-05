@@ -10,7 +10,7 @@
   "ignoreTests": false,
   "prConcurrentLimit": 10,
   "minimumReleaseAge": "1 days",
-  "reviewers": ["lis2a"],
+  "reviewers": ["liliscats"],
   "packageRules": [
     {
       "groupName": "Auto merge & approve disable rules",

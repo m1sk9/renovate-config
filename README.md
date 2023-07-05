@@ -1,10 +1,10 @@
-# lis2a/renovate-config
+# m1sk9/renovate-config
 
 my renovate config
 
 ```json
 {
-    "extends": ["github>liliscats/renovate-config"]
+    "extends": ["github>m1sk9/renovate-config"]
 }
 ```
 

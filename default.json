@@ -1,6 +1,5 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [":timezone(Asia/Tokyo)", "schedule:earlyMondays"],
   "automergeStrategy": "auto",
   "semanticCommitScope": "deps",
   "semanticCommitType": "chore",
@@ -11,6 +10,10 @@
   "prConcurrentLimit": 10,
   "minimumReleaseAge": "1 days",
   "reviewers": ["m1sk9"],
+  "extends": [":timezone(Asia/Tokyo)"],
+  "schedule": [
+    "on the first day of the week"
+  ],
   "packageRules": [
     {
       "groupName": "Auto merge & approve disable rules",

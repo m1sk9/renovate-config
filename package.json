@@ -10,8 +10,8 @@
   },
   "author": {
     "name": "m1sk9",
-    "email": "me@lilis.dev",
-    "url": "https://lilis.dev"
+    "email": "me@m1sk9.dev",
+    "url": "https://m1sk9.dev"
   },
   "scripts": {
     "format": "prettier --write default.json",

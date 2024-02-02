@@ -12,7 +12,7 @@
   "reviewers": ["m1sk9"],
   "extends": [":timezone(Asia/Tokyo)"],
   "schedule": [
-    "on the first day of the week"
+    "every weekend"
   ],
   "packageRules": [
     {

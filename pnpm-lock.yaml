@@ -10,7 +10,7 @@ devDependencies:
     version: 3.2.5
   renovate:
     specifier: ^37.0.0
-    version: 37.229.5(typanion@3.14.0)
+    version: 37.230.0(typanion@3.14.0)
 
 packages:
 
@@ -2444,7 +2444,7 @@ packages:
       es-errors: 1.3.0
       function-bind: 1.1.2
       get-intrinsic: 1.2.4
-      set-function-length: 1.2.1
+      set-function-length: 1.2.2
     dev: true
 
   /camelcase-keys@6.2.2:
@@ -4607,8 +4607,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.229.5(typanion@3.14.0):
-    resolution: {integrity: sha512-F9+uJ1BIFIWO+A4FX5Yy32kFjKQ8W438rD3wNtho3wI6B3S+QWeyB+c1e7vE+Md3saiOtXSXnIhq8WE3VsOF0g==}
+  /renovate@37.230.0(typanion@3.14.0):
+    resolution: {integrity: sha512-hDPk/ZDh0cbdCGbLlJDiPjwnFMVXjMQ1Goly4NvbeRYbh+rvAAvCwglADJYMbkKKP2Rce4+Kn9EGmB3L6RSn6A==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -4871,8 +4871,8 @@ packages:
       type-fest: 0.13.1
     dev: true
 
-  /set-function-length@1.2.1:
-    resolution: {integrity: sha512-j4t6ccc+VsKwYHso+kElc5neZpjtq9EnRICFZtWyBsLojhmeF/ZBd/elqm22WJh/BziDe/SBiOeAt0m2mfLD0g==}
+  /set-function-length@1.2.2:
+    resolution: {integrity: sha512-pgRc4hJ4/sNjWCSS9AmnS40x3bNMDTknHgL5UaMBTMyJnU90EgWh1Rz+MC9eFu4BuN/UwZjKQuY/1v3rM7HMfg==}
     engines: {node: '>= 0.4'}
     dependencies:
       define-data-property: 1.1.4

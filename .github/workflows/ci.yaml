@@ -1,0 +1,47 @@
+name: Test
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v3
+
+      - name: Use Node.js v20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: "pnpm"
+
+      - name: Install dependencies
+        run: pnpm i --frozen-lockfile
+
+      - name: Check Renovate config
+        run: pnpm run test
+
+      - name: Check Formatter
+        run: pnpm run format:check
+
+      - name: Test Renovate config
+        run: |
+          pnpm exec renovate \
+              --dry-run \
+              --schedule= \
+              --require-config=ignored \
+              '${{ github.repository }}'
+        env:
+          RENOVATE_USERNAME: renovate[bot]
+          RENOVATE_GIT_AUTHOR: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+          RENOVATE_TOKEN: ${{ github.token }}
+          RENOVATE_BASE_BRANCHES: ${{ github.sha }}
+          RENOVATE_CONFIG_FILE: ./.github/renovate.json
+          LOG_LEVEL: debug

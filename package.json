@@ -1,0 +1,26 @@
+{
+  "name": "renovate-config",
+  "version": "0.1.0",
+  "description": "m1sk9 preset for Renovate",
+  "license": "MIT",
+  "packageManager": "pnpm@9.6.0",
+  "private": true,
+  "author": {
+    "name": "m1sk9",
+    "email": "me@m1sk9.dev",
+    "url": "https://m1sk9.dev/"
+  },
+  "scripts": {
+    "format": "biome format --write .",
+    "format:check": "biome format .",
+    "test": "renovate-config-validator default.json",
+    "postinstall": "lefthook install"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3",
+    "renovate": "38"
+  },
+  "dependencies": {
+    "lefthook": "^1.7.11"
+  }
+}

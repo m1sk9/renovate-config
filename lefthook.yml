@@ -1,0 +1,8 @@
+pre-commit:
+  commands:
+    format-check:
+      glob: '*.json'
+      run: pnpm run format:check
+    test:
+      glob: '*.json'
+      run: pnpm run test

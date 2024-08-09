@@ -1,3 +1,11 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json"
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "timezone": "Asia/Tokyo",
+  "labels": ["dependencies"],
+  "extends": [
+    "github>m1sk9/renovate-config:base",
+    "github>m1sk9/renovate-config:customManagers",
+    "config:recommended",
+    ":disableRateLimiting"
+  ]
 }

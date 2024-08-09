@@ -1,6 +1,6 @@
 {
   "name": "renovate-config",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "m1sk9 preset for Renovate",
   "license": "MIT",
   "packageManager": "pnpm@9.6.0",

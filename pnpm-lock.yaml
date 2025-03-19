@@ -17,7 +17,7 @@ importers:
         version: 1.9.4
       renovate:
         specifier: '39'
-        version: 39.207.3(encoding@0.1.13)(typanion@3.14.0)
+        version: 39.208.0(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -590,8 +590,8 @@ packages:
   '@seald-io/binary-search-tree@1.0.3':
     resolution: {integrity: sha512-qv3jnwoakeax2razYaMsGI/luWdliBLHTdC6jU55hQt1hcFqzauH/HsBollQ7IR4ySTtYhT+xyHoijpA16C+tA==}
 
-  '@seald-io/nedb@4.0.4':
-    resolution: {integrity: sha512-CUNcMio7QUHTA+sIJ/DC5JzVNNsHe743TPmC4H5Gij9zDLMbmrCT2li3eVB72/gF63BPS8pWEZrjlAMRKA8FDw==}
+  '@seald-io/nedb@4.1.0':
+    resolution: {integrity: sha512-HZhRClqZsOpKDQ3jkQSCMgxhgdCYJofLcP36blHHiLenE3n82iF3TPf+4pu6KZujTE0Lcs87N8c9gO9nYUntdA==}
 
   '@sindresorhus/is@4.6.0':
     resolution: {integrity: sha512-t09vSN3MdfsyCHoFcTRCH/iUtG7OJ0CsjzB8cjAmKc/va/kIgeDI/TxsigdncE/4be734m0cvIYwNaV4i2XqAw==}
@@ -2436,8 +2436,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@39.207.3:
-    resolution: {integrity: sha512-IRG1O9+gKr61XB12m3dvuT0SOpHGG0aCvcLou1h/NqoU3zaNNpAZGwlYxG2UFbM7bJhe+C947mi8BG+YVJGo5w==}
+  renovate@39.208.0:
+    resolution: {integrity: sha512-mOlwM2JbLVifP8IKp6YvFESaywwum0hlUTMV/hAjNWC7joNs7tfC137IahKQLNBN1PFIkuNR5Huxse9l42CxfQ==}
     engines: {node: ^20.15.1 || ^22.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -4091,7 +4091,7 @@ snapshots:
 
   '@renovatebot/osv-offline-db@1.7.2':
     dependencies:
-      '@seald-io/nedb': 4.0.4
+      '@seald-io/nedb': 4.1.0
 
   '@renovatebot/osv-offline@1.6.2':
     dependencies:
@@ -4107,7 +4107,7 @@ snapshots:
 
   '@seald-io/binary-search-tree@1.0.3': {}
 
-  '@seald-io/nedb@4.0.4':
+  '@seald-io/nedb@4.1.0':
     dependencies:
       '@seald-io/binary-search-tree': 1.0.3
       localforage: 1.10.0
@@ -6238,7 +6238,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@39.207.3(encoding@0.1.13)(typanion@3.14.0):
+  renovate@39.208.0(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.738.0
       '@aws-sdk/client-ec2': 3.738.0

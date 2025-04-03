@@ -17,7 +17,7 @@ importers:
         version: 1.9.4
       renovate:
         specifier: '39'
-        version: 39.232.2(encoding@0.1.13)(typanion@3.14.0)
+        version: 39.232.4(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -1478,8 +1478,8 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
-  git-up@8.0.1:
-    resolution: {integrity: sha512-2XFu1uNZMSjkyetaF+8rqn6P0XqpMq/C+2ycjI6YwrIKcszZ5/WR4UubxjN0lILOKqLkLaHDaCr2B6fP1cke6g==}
+  git-up@8.1.0:
+    resolution: {integrity: sha512-cT2f5ERrhFDMPS5wLHURcjRiacC8HonX0zIAWBTwHv1fS6HheP902l6pefOX/H9lNmvCHDwomw0VeN7nhg5bxg==}
 
   git-url-parse@16.0.1:
     resolution: {integrity: sha512-mcD36GrhAzX5JVOsIO52qNpgRyFzYWRbU1VSRFCvJt1IJvqfvH427wWw/CFqkWvjVPtdG5VTx4MKUeC5GeFPDQ==}
@@ -2427,8 +2427,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@39.232.2:
-    resolution: {integrity: sha512-3KHFOhXEwtZWY0v9ZAHhrUO/NUnMFPG0nzNantBW29USI6y0O7Exf3H/4ZT1j+r3Vx3ilB/5k9UvgEARruyRJQ==}
+  renovate@39.232.4:
+    resolution: {integrity: sha512-uVmHiT1SFYOQpCiUjOwEOrY9+yYp6zqMDy22BDtSnMXjTXTVF9s4Bs4lHc5fr44ghItNLINoudotxLzCCSED0w==}
     engines: {node: ^20.15.1 || ^22.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -5208,14 +5208,14 @@ snapshots:
       split2: 3.2.2
       through2: 4.0.2
 
-  git-up@8.0.1:
+  git-up@8.1.0:
     dependencies:
       is-ssh: 1.4.1
       parse-url: 9.2.0
 
   git-url-parse@16.0.1:
     dependencies:
-      git-up: 8.0.1
+      git-up: 8.1.0
 
   github-from-package@0.0.0:
     optional: true
@@ -6258,7 +6258,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@39.232.2(encoding@0.1.13)(typanion@3.14.0):
+  renovate@39.232.4(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.777.0
       '@aws-sdk/client-ec2': 3.779.0

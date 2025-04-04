@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.4](https://github.com/m1sk9/renovate-config/compare/renovate-config-v0.2.3...renovate-config-v0.2.4) (2025-04-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency lefthook to v1.11.5 ([#177](https://github.com/m1sk9/renovate-config/issues/177)) ([a99e15f](https://github.com/m1sk9/renovate-config/commit/a99e15f7293644329732c01deee60c7657470be4))
+* **deps:** update dependency lefthook to v1.11.6 ([#195](https://github.com/m1sk9/renovate-config/issues/195)) ([4ca4e4f](https://github.com/m1sk9/renovate-config/commit/4ca4e4fe3ccb8e5d70ae04c5e3306d6ba318798b))
+
 ## [0.2.3](https://github.com/m1sk9/renovate-config/compare/renovate-config-v0.2.2...renovate-config-v0.2.3) (2025-03-25)
 
 

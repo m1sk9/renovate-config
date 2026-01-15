@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/m1sk9/renovate-config/compare/renovate-config-v1.0.0...renovate-config-v1.0.1) (2026-01-15)
+
+
+### Bug Fixes
+
+* Fix extends path ([#298](https://github.com/m1sk9/renovate-config/issues/298)) ([d6a4881](https://github.com/m1sk9/renovate-config/commit/d6a48810fb488ee5378b8ee9c934327c12cf5eb4))
+
 ## [1.0.0](https://github.com/m1sk9/renovate-config/compare/renovate-config-v0.2.3...renovate-config-v1.0.0) (2026-01-15)
 
 

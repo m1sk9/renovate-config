@@ -24,6 +24,6 @@
     "renovate": "^42.81.8"
   },
   "dependencies": {
-    "lefthook": "^1.7.11"
+    "lefthook": "^2.0.0"
   }
 }

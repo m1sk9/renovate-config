@@ -15,4 +15,8 @@ Add the following to your `renovate.json`:
 
 ## License
 
-Copyright © 2024 [m1sk9](https://github.com/m1sk9). This project is licensed under the [MIT License](LICENSE).
+Published under [MIT License](./LICENSE).
+
+<sub>
+    ® 2024 - 2026 m1sk9
+</sub>

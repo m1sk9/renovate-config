@@ -1,0 +1,8 @@
+onlyBuiltDependencies:
+  - '@biomejs/biome'
+  - better-sqlite3
+  - core-js-pure
+  - dtrace-provider
+  - lefthook
+  - protobufjs
+  - re2

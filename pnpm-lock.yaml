@@ -17,7 +17,7 @@ importers:
         version: 1.9.4
       renovate:
         specifier: ^42.81.8
-        version: 42.83.0(encoding@0.1.13)(typanion@3.14.0)
+        version: 42.83.1(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -2629,8 +2629,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@42.83.0:
-    resolution: {integrity: sha512-jnu+mcoAm8qPP52k3S17rVBK6LMxukKRQ58j2nIDSttCxsEa+HEdJWBQTgf9wBGjLF0k3O3w/3Md0PqO8MIb5Q==}
+  renovate@42.83.1:
+    resolution: {integrity: sha512-6k07xIf0+XfnrDvlyqdKm5ncayLnCEu2nUe7DRvFsHBc0flyMTWFjVMkfIvVbrKRXi8PT/UwpXa1IwXthLUFTA==}
     engines: {node: ^22.13.0 || ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -2890,8 +2890,8 @@ packages:
     resolution: {integrity: sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==}
     engines: {node: '>=10'}
 
-  tar@7.5.2:
-    resolution: {integrity: sha512-7NyxrTE4Anh8km8iEy7o0QYPs+0JKBTj5ZaqHg6B39erLg0qYXN3BijtShwbsNSvQ+LN75+KV+C4QR/f6Gwnpg==}
+  tar@7.5.3:
+    resolution: {integrity: sha512-ENg5JUHUm2rDD7IvKNFGzyElLXNjachNLp6RaGf4+JOgxXHkqA+gq81ZAMCUmtMtqBsoU62lcp6S27g1LCYGGQ==}
     engines: {node: '>=18'}
 
   through2-concurrent@2.0.0:
@@ -6475,7 +6475,7 @@ snapshots:
       nopt: 9.0.0
       proc-log: 6.1.0
       semver: 7.7.2
-      tar: 7.5.2
+      tar: 7.5.3
       tinyglobby: 0.2.15
       which: 6.0.0
     transitivePeerDependencies:
@@ -6818,7 +6818,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@42.83.0(encoding@0.1.13)(typanion@3.14.0):
+  renovate@42.83.1(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.958.0
       '@aws-sdk/client-ec2': 3.958.0
@@ -7234,7 +7234,7 @@ snapshots:
       mkdirp: 1.0.4
       yallist: 4.0.0
 
-  tar@7.5.2:
+  tar@7.5.3:
     dependencies:
       '@isaacs/fs-minipass': 4.0.1
       chownr: 3.0.0

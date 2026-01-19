@@ -17,7 +17,7 @@ importers:
         version: 1.9.4
       renovate:
         specifier: ^42.81.8
-        version: 42.84.2(encoding@0.1.13)(typanion@3.14.0)
+        version: 42.85.4(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -1432,8 +1432,8 @@ packages:
     engines: {node: '>=4'}
     hasBin: true
 
-  eventemitter3@5.0.1:
-    resolution: {integrity: sha512-GWkBvjiSZK87ELrYOSESUYeVIc9mvLLf/nXalMOS5dYrgZq9o5OVkbZAVM06CVxYsCwH9BDZFPlQTlPA1j4ahA==}
+  eventemitter3@5.0.4:
+    resolution: {integrity: sha512-mlsTRyGaPBjPedk6Bvw+aqbsXDtoAyAzm5MO7JgU+yVRyMQ5O8bD4Kcci7BS85f93veegeCPkL8R4GLClnjLFw==}
 
   execa@8.0.1:
     resolution: {integrity: sha512-VyhnebXciFV2DESc+p6B+y0LjSm0krU4OgJN44qFAhBY0TJ+1V61tYD2+wHusZ6F9n5K+vl8k0sTy7PEfV4qpg==}
@@ -2629,8 +2629,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@42.84.2:
-    resolution: {integrity: sha512-ZcbnB2qA1MPAlTc9MmuMuJvoS3Mz/TE0xz8xXNMDhPfDeBbmdXa37CGGNPMhl/PEqqFTMxUz/X3GJ5hAi800dA==}
+  renovate@42.85.4:
+    resolution: {integrity: sha512-KK11QIqgZGi5X/5PaJ+wJoCnDjcpPTtfpd6QcNn37yWCCT6eicCATfG4hoNHlsBI9lalUOCRpJuWE/nWcAixvA==}
     engines: {node: ^22.13.0 || ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -2889,6 +2889,7 @@ packages:
   tar@6.2.1:
     resolution: {integrity: sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==}
     engines: {node: '>=10'}
+    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exhorbitant rates) by contacting i@izs.me
 
   tar@7.5.3:
     resolution: {integrity: sha512-ENg5JUHUm2rDD7IvKNFGzyElLXNjachNLp6RaGf4+JOgxXHkqA+gq81ZAMCUmtMtqBsoU62lcp6S27g1LCYGGQ==}
@@ -5309,7 +5310,7 @@ snapshots:
 
   esprima@4.0.1: {}
 
-  eventemitter3@5.0.1: {}
+  eventemitter3@5.0.4: {}
 
   execa@8.0.1:
     dependencies:
@@ -6565,7 +6566,7 @@ snapshots:
 
   p-queue@9.1.0:
     dependencies:
-      eventemitter3: 5.0.1
+      eventemitter3: 5.0.4
       p-timeout: 7.0.1
 
   p-throttle@8.1.0: {}
@@ -6818,7 +6819,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@42.84.2(encoding@0.1.13)(typanion@3.14.0):
+  renovate@42.85.4(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.958.0
       '@aws-sdk/client-ec2': 3.958.0

@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "m1sk9 preset for Renovate",
   "license": "MIT",
-  "packageManager": "pnpm@10.28.1",
+  "packageManager": "pnpm@10.28.2",
   "engines": {
     "node": "24.13.0"
   },

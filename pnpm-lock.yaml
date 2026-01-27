@@ -17,7 +17,7 @@ importers:
         version: 1.9.4
       renovate:
         specifier: ^42.81.8
-        version: 42.92.11(encoding@0.1.13)(typanion@3.14.0)
+        version: 42.92.12(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -914,8 +914,8 @@ packages:
   '@types/emscripten@1.41.5':
     resolution: {integrity: sha512-cMQm7pxu6BxtHyqJ7mQZ2kXWV5SLmugybFdHCBbJ5eHzOo6VhBckEgAT3//rP5FwPHNPeEiq4SmQ5ucBwsOo4Q==}
 
-  '@types/http-cache-semantics@4.0.4':
-    resolution: {integrity: sha512-1m0bIFVc7eJWyve9S0RnuRgcQqF/Xd5QsUZAZeQFr1Q3/p9JWoQQEqmVy+DPTNpGXwhgIetAoYF8JSc33q29QA==}
+  '@types/http-cache-semantics@4.2.0':
+    resolution: {integrity: sha512-L3LgimLHXtGkWikKnsPg0/VFx9OGZaC+eN1u4r+OB1XRqH3meBIAVC2zr1WdMH+RHmnRkqliQAOHNJ/E0j/e0Q==}
 
   '@types/keyv@3.1.4':
     resolution: {integrity: sha512-BQ5aZNSCpj7D6K2ksrRCTmKRLEpnPvWDiLPfoGyhZ++8YtiK9d/3DBKPJgry359X/P1PfruyYwvnvwFjuEiEIg==}
@@ -2609,8 +2609,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@42.92.11:
-    resolution: {integrity: sha512-xjb2wjk9s38SYu3MwJSj2WWBtGzOe5YN1X2f97Vn0laRbipm7m5MNXe8wdhwdamKR7pAkYHuBhWEpkqR9kwbrA==}
+  renovate@42.92.12:
+    resolution: {integrity: sha512-soJ8me6cprLqPKa4tj7cunJveGHH2S7KLt3FuJg2T1Evbc4wLzrH5LmK6z0b+2VznUc+oJmmYJQPh/VVLNjPTg==}
     engines: {node: ^22.13.0 || ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -4759,7 +4759,7 @@ snapshots:
 
   '@types/cacheable-request@6.0.3':
     dependencies:
-      '@types/http-cache-semantics': 4.0.4
+      '@types/http-cache-semantics': 4.2.0
       '@types/keyv': 3.1.4
       '@types/node': 25.0.10
       '@types/responselike': 1.0.3
@@ -4770,7 +4770,7 @@ snapshots:
 
   '@types/emscripten@1.41.5': {}
 
-  '@types/http-cache-semantics@4.0.4': {}
+  '@types/http-cache-semantics@4.2.0': {}
 
   '@types/keyv@3.1.4':
     dependencies:
@@ -6771,7 +6771,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@42.92.11(encoding@0.1.13)(typanion@3.14.0):
+  renovate@42.92.12(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.958.0
       '@aws-sdk/client-ec2': 3.958.0

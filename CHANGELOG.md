@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/m1sk9/renovate-config/compare/renovate-config-v1.0.1...renovate-config-v1.0.2) (2026-01-29)
+
+
+### Bug Fixes
+
+* **deps:** update dependency lefthook to v2 ([#302](https://github.com/m1sk9/renovate-config/issues/302)) ([9a61a03](https://github.com/m1sk9/renovate-config/commit/9a61a03b7d6c8877293e38aa4060a705bcffaf6c))
+
 ## [1.0.1](https://github.com/m1sk9/renovate-config/compare/renovate-config-v1.0.0...renovate-config-v1.0.1) (2026-01-15)
 
 

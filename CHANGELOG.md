@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.0.0](https://github.com/m1sk9/renovate-config/compare/renovate-config-v1.0.1...renovate-config-v2.0.0) (2026-01-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** update dependency @biomejs/biome to v2 ([#301](https://github.com/m1sk9/renovate-config/issues/301))
+
+### Bug Fixes
+
+* **deps:** update dependency @biomejs/biome to v2 ([#301](https://github.com/m1sk9/renovate-config/issues/301)) ([09b37e5](https://github.com/m1sk9/renovate-config/commit/09b37e5012531511c9682dcf9ab56af587028cd8))
+* **deps:** update dependency lefthook to v2 ([#302](https://github.com/m1sk9/renovate-config/issues/302)) ([9a61a03](https://github.com/m1sk9/renovate-config/commit/9a61a03b7d6c8877293e38aa4060a705bcffaf6c))
+
 ## [1.0.1](https://github.com/m1sk9/renovate-config/compare/renovate-config-v1.0.0...renovate-config-v1.0.1) (2026-01-15)
 
 

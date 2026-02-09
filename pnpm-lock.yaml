@@ -17,7 +17,7 @@ importers:
         version: 2.3.14
       renovate:
         specifier: ^42.81.8
-        version: 42.96.2(encoding@0.1.13)(typanion@3.14.0)
+        version: 42.97.0(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -627,8 +627,8 @@ packages:
     resolution: {integrity: sha512-2FK1hF93Fuf1laSdfiEmJvSJPVIDHEUTz68D3Fi9s0IZrrpaEcj6pTFBTbYvsgC5du4ogrtf5re7yMMvrKNgkw==}
     engines: {node: ^20.9.0 || ^22.11.0 || ^24, pnpm: ^10.0.0}
 
-  '@renovatebot/pgp@1.2.3':
-    resolution: {integrity: sha512-ApTZ0N38B2TYgs0N+Ye1c3v+frOVJeW6ldnO9TXnYHcBvt7zwSTglAMmXoxrW4dA05pdX81URmNjUfUeY96hUw==}
+  '@renovatebot/pgp@1.2.5':
+    resolution: {integrity: sha512-FRXMIUksnyIAoIsUjPUEXQXgztbi70jZJcnAKu+RQRoYINf8yZqtMpd0U1k0SRKFvAJaWyTHmi4J0ws3y+xUMg==}
     engines: {node: ^22.11.0 || >=24.10.0, pnpm: ^10.0.0}
 
   '@renovatebot/ruby-semver@4.1.2':
@@ -926,8 +926,8 @@ packages:
   '@types/ms@2.1.0':
     resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
 
-  '@types/node@25.2.1':
-    resolution: {integrity: sha512-CPrnr8voK8vC6eEtyRzvMpgp3VyVRhgclonE7qYi6P9sXwYb59ucfrnmFBTaP0yUi8Gk4yZg/LlTJULGxvTNsg==}
+  '@types/node@25.2.2':
+    resolution: {integrity: sha512-BkmoP5/FhRYek5izySdkOneRyXYN35I860MFAGupTdebyE66uZaR+bXLHq8k4DirE5DwQi3NuhvRU1jqTVwUrQ==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -1078,8 +1078,8 @@ packages:
     resolution: {integrity: sha512-d0II/GO9uf9lfUHH2BQsjxzRJZBdsjgsBiW4BvhWk/3qoKwQFjIDVN19PfX8F2D/r9PCMTtLWjYVCFrpeYUzsw==}
     deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
-  bowser@2.13.1:
-    resolution: {integrity: sha512-OHawaAbjwx6rqICCKgSG0SAnT05bzd7ppyKLVUITZpANBaaMFBAsaNkto3LoQ31tyFP5kNujE8Cdx85G9VzOkw==}
+  bowser@2.14.1:
+    resolution: {integrity: sha512-tzPjzCxygAKWFOJP011oxFHs57HzIhOEracIgAePE4pqB3LikALKnSzUyU4MGs9/iCEUuHlAJTjTc5M+u7YEGg==}
 
   brace-expansion@1.1.12:
     resolution: {integrity: sha512-9T9UjW3r0UW5c1Q7GTwllptXwhvYmEzFhzMfZ9H7FQWt+uZePjZPjBP/W1ZEyZ1twGWom5/56TF4lPcqjnDHcg==}
@@ -1834,8 +1834,8 @@ packages:
   isexe@2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
 
-  isexe@3.1.2:
-    resolution: {integrity: sha512-mIcis6w+JiQf3P7t7mg/35GKB4T1FQsBOtMIvuKw4YErj5RjtbhcTd5/I30fmkmGMwvI0WlzSNN+27K0QCMkAw==}
+  isexe@3.1.4:
+    resolution: {integrity: sha512-jCErc4h4RnTPjFq53G4whhjAMbUAqinGrCrTT4dmMNyi4zTthK+wphqbRLJtL4BN/Mq7Zzltr0m/b1X0m7PGFQ==}
     engines: {node: '>=20'}
 
   jackspeak@3.4.3:
@@ -2604,8 +2604,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@42.96.2:
-    resolution: {integrity: sha512-7psW4ohGay2tTRFNrhauss7IfWV/QjkyIQj2tSSH+Y1d5vOnGY6WShdW4aEgiachfHhuVaHN7XA9i9XIU2370Q==}
+  renovate@42.97.0:
+    resolution: {integrity: sha512-YNE+gvSfD4qmtPiaRmJVFovD3zedRJBqLcjmBAIEK6zPki+OkwGoQK6zxDFoItzihqG3S1uUDlY64wnc1vqLVQ==}
     engines: {node: ^22.13.0 || ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -3922,7 +3922,7 @@ snapshots:
     dependencies:
       '@aws-sdk/types': 3.957.0
       '@smithy/types': 4.12.0
-      bowser: 2.13.1
+      bowser: 2.14.1
       tslib: 2.8.1
 
   '@aws-sdk/util-user-agent-node@3.957.0':
@@ -4348,7 +4348,7 @@ snapshots:
 
   '@renovatebot/pep440@4.2.1': {}
 
-  '@renovatebot/pgp@1.2.3': {}
+  '@renovatebot/pgp@1.2.5': {}
 
   '@renovatebot/ruby-semver@4.1.2': {}
 
@@ -4745,13 +4745,13 @@ snapshots:
 
   '@types/bunyan@1.8.11':
     dependencies:
-      '@types/node': 25.2.1
+      '@types/node': 25.2.2
 
   '@types/cacheable-request@6.0.3':
     dependencies:
       '@types/http-cache-semantics': 4.2.0
       '@types/keyv': 3.1.4
-      '@types/node': 25.2.1
+      '@types/node': 25.2.2
       '@types/responselike': 1.0.3
 
   '@types/debug@4.1.12':
@@ -4764,7 +4764,7 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 25.2.1
+      '@types/node': 25.2.2
 
   '@types/mdast@4.0.4':
     dependencies:
@@ -4776,7 +4776,7 @@ snapshots:
 
   '@types/ms@2.1.0': {}
 
-  '@types/node@25.2.1':
+  '@types/node@25.2.2':
     dependencies:
       undici-types: 7.16.0
 
@@ -4788,7 +4788,7 @@ snapshots:
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 25.2.1
+      '@types/node': 25.2.2
 
   '@types/semver@7.7.1': {}
 
@@ -4798,7 +4798,7 @@ snapshots:
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 25.2.1
+      '@types/node': 25.2.2
     optional: true
 
   '@yarnpkg/core@4.5.0(typanion@3.14.0)':
@@ -4946,7 +4946,7 @@ snapshots:
 
   boolean@3.2.0: {}
 
-  bowser@2.13.1: {}
+  bowser@2.14.1: {}
 
   brace-expansion@1.1.12:
     dependencies:
@@ -5747,7 +5747,7 @@ snapshots:
 
   isexe@2.0.0: {}
 
-  isexe@3.1.2:
+  isexe@3.1.4:
     optional: true
 
   jackspeak@3.4.3:
@@ -6614,7 +6614,7 @@ snapshots:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 25.2.1
+      '@types/node': 25.2.2
       long: 5.3.2
 
   protobufjs@8.0.0:
@@ -6629,7 +6629,7 @@ snapshots:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 25.2.1
+      '@types/node': 25.2.2
       long: 5.3.2
 
   protocols@2.0.2: {}
@@ -6761,7 +6761,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@42.96.2(encoding@0.1.13)(typanion@3.14.0):
+  renovate@42.97.0(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.958.0
       '@aws-sdk/client-ec2': 3.958.0
@@ -6794,7 +6794,7 @@ snapshots:
       '@renovatebot/good-enough-parser': 1.2.0
       '@renovatebot/osv-offline': 2.0.1
       '@renovatebot/pep440': 4.2.1
-      '@renovatebot/pgp': 1.2.3
+      '@renovatebot/pgp': 1.2.5
       '@renovatebot/ruby-semver': 4.1.2
       '@sindresorhus/is': 7.2.0
       '@yarnpkg/core': 4.5.0(typanion@3.14.0)
@@ -7369,7 +7369,7 @@ snapshots:
 
   which@6.0.0:
     dependencies:
-      isexe: 3.1.2
+      isexe: 3.1.4
     optional: true
 
   wordwrap@1.0.0: {}

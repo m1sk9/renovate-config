@@ -17,7 +17,7 @@ importers:
         version: 2.3.14
       renovate:
         specifier: ^42.81.8
-        version: 42.97.0(encoding@0.1.13)(typanion@3.14.0)
+        version: 42.97.1(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -1834,9 +1834,9 @@ packages:
   isexe@2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
 
-  isexe@3.1.4:
-    resolution: {integrity: sha512-jCErc4h4RnTPjFq53G4whhjAMbUAqinGrCrTT4dmMNyi4zTthK+wphqbRLJtL4BN/Mq7Zzltr0m/b1X0m7PGFQ==}
-    engines: {node: '>=20'}
+  isexe@3.1.5:
+    resolution: {integrity: sha512-6B3tLtFqtQS4ekarvLVMZ+X+VlvQekbe4taUkf/rhVO3d/h0M2rfARm/pXLcPEsjjMsFgrFgSrhQIxcSVrBz8w==}
+    engines: {node: '>=18'}
 
   jackspeak@3.4.3:
     resolution: {integrity: sha512-OGlZQpz2yfahA/Rd1Y8Cd9SIEsqvXkLVoSw/cgwhnhFMDbsQFeZYoJJ7bIZBS9BcamUW96asq/npPWugM+RQBw==}
@@ -2604,8 +2604,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@42.97.0:
-    resolution: {integrity: sha512-YNE+gvSfD4qmtPiaRmJVFovD3zedRJBqLcjmBAIEK6zPki+OkwGoQK6zxDFoItzihqG3S1uUDlY64wnc1vqLVQ==}
+  renovate@42.97.1:
+    resolution: {integrity: sha512-DmXT9etyyveNWQvdJ4N1e9Rzg/Da1jPPxS5hjFGlI5ECJzmBuibwAJLLQLD2jCvsNetUcrhIn3ydQ/J95aVMqQ==}
     engines: {node: ^22.13.0 || ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -2794,8 +2794,8 @@ packages:
   sprintf-js@1.1.3:
     resolution: {integrity: sha512-Oo+0REFV59/rz3gfJNKQiBlwfHaSESl1pcGyABQsnnIfWOFt6JNj5gCog2U6MLZ//IGYD+nA8nI+mTShREReaA==}
 
-  ssri@13.0.0:
-    resolution: {integrity: sha512-yizwGBpbCn4YomB2lzhZqrHLJoqFGXihNbib3ozhqF/cIp5ue+xSmOQrjNasEE62hFxsCcg/V/z23t4n8jMEng==}
+  ssri@13.0.1:
+    resolution: {integrity: sha512-QUiRf1+u9wPTL/76GTYlKttDEBWV1ga9ZXW8BG6kfdeyyM8LGPix9gROyg9V2+P0xNyF3X2Go526xKFdMZrHSQ==}
     engines: {node: ^20.17.0 || >=22.9.0}
 
   string-width@4.2.3:
@@ -4996,7 +4996,7 @@ snapshots:
       minipass-flush: 1.0.5
       minipass-pipeline: 1.2.4
       p-map: 7.0.4
-      ssri: 13.0.0
+      ssri: 13.0.1
       unique-filename: 5.0.0
 
   cacheable-lookup@5.0.4: {}
@@ -5747,7 +5747,7 @@ snapshots:
 
   isexe@2.0.0: {}
 
-  isexe@3.1.4:
+  isexe@3.1.5:
     optional: true
 
   jackspeak@3.4.3:
@@ -5911,7 +5911,7 @@ snapshots:
       negotiator: 1.0.0
       proc-log: 6.1.0
       promise-retry: 2.0.1
-      ssri: 13.0.0
+      ssri: 13.0.1
     transitivePeerDependencies:
       - supports-color
     optional: true
@@ -6761,7 +6761,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@42.97.0(encoding@0.1.13)(typanion@3.14.0):
+  renovate@42.97.1(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.958.0
       '@aws-sdk/client-ec2': 3.958.0
@@ -7095,7 +7095,7 @@ snapshots:
 
   sprintf-js@1.1.3: {}
 
-  ssri@13.0.0:
+  ssri@13.0.1:
     dependencies:
       minipass: 7.1.2
 
@@ -7369,7 +7369,7 @@ snapshots:
 
   which@6.0.0:
     dependencies:
-      isexe: 3.1.4
+      isexe: 3.1.5
     optional: true
 
   wordwrap@1.0.0: {}

@@ -20,7 +20,7 @@
     "postinstall": "lefthook install"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.5.12",
+    "@biomejs/biome": "2.5.13",
     "renovate": "^42.81.8"
   },
   "dependencies": {
